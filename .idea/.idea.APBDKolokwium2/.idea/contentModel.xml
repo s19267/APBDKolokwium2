@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\kdhrt\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\kdhrt\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\kdhrt\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\kdhrt\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_APBDKolokwium2.-1233919160.00" t="ExcludeRecursive" />
+    <e p="C:\Users\kdhrt\OneDrive\Pulpit\pjatk\APBDKolowium\APBDKolokwium2" t="IncludeFlat">
+      <e p="APBDKolokwium2" t="IncludeRecursive">
+        <e p="APBDKolokwium2.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="ChampionshipController.cs" t="Include" />
+          <e p="TeamsController.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20200618110014_init.cs" t="Include" />
+          <e p="20200618110014_init.Designer.cs" t="Include" />
+          <e p="MyDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Championship.cs" t="Include" />
+          <e p="ChampionshipTeam.cs" t="Include" />
+          <e p="MyDbContext.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+          <e p="PlayerTeam.cs" t="Include" />
+          <e p="Team.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="APBDKolokwium2.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="ResponseTeam.cs" t="Include" />
+        <e p="Services" t="Include">
+          <e p="IChampionshipsDbService.cs" t="Include" />
+          <e p="SqlServerChampionshipDbService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="APBDKolokwium2.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
