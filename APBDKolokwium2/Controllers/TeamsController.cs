@@ -8,20 +8,22 @@ namespace APBDKolokwium2.Controllers
     [ApiController]
     public class TeamsController : ControllerBase
     {
-        
         private readonly IChampionshipsDbService _service;
 
         public TeamsController(IChampionshipsDbService service)
         {
             _service = service;
         }
-        
-        
+
+
         [HttpPut("{id:int}/teams")]
-        public IActionResult AddPlayerToTeam(int id,Player player)
+        public IActionResult AddPlayerToTeam(int id, Player player)
         {
-            
-            return Ok();
+            var response = _service.AddPlayerToTeam(id, player);
+            if (response != null)
+                return Ok(response);
+            else
+                return BadRequest();
         }
     }
 }

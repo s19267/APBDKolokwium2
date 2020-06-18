@@ -28,8 +28,16 @@ namespace APBDKolokwium2.Services
 
             return teams;
         }
-        
-        
-        
+
+        public string AddPlayerToTeam(int IdTeam, Player player)
+        {
+            var team = _context.Teams.Where(p => p.IdTeam == IdTeam).SingleOrDefault();
+            
+                
+            
+
+            return null;
+
+        }
     }
 }
